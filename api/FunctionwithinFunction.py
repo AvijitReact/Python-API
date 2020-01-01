@@ -12,7 +12,7 @@ hello()
 def hello_world():
   name = str(input("Enter your name: "))
   if name == 'AV':
-    print ("Hello " + str(name))
+    ret = "Hello " + str(name)
   else:
     ret = "My World"
   return ret
