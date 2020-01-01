@@ -14,3 +14,14 @@ reduced_list = reduce(lambda x, y: x+y, my_list)
 print(filtered_list)
 print(mapped_list)
 print(reduced_list)
+
+X = lambda Y: Y + 10
+print(X(12))
+
+X = lambda M, N: M * N
+print(X(2,4))
+
+X = lambda M: M if M > 10 else "XX"
+print(X(9))
+
+
