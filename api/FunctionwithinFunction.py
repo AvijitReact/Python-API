@@ -19,3 +19,12 @@ def hello_world():
   
 ret1 = hello_world()
 print (ret1)
+
+def plus(*args):
+  total = 0
+  for i in args:
+    total += i
+  return total
+
+# Calculate the sum  
+plus(20,30,40,50)
