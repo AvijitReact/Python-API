@@ -27,4 +27,4 @@ def plus(*args):
   return total
 
 # Calculate the sum  
-plus(20,30,40,50)
+print(plus(20,30,40,50))
