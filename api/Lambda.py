@@ -39,3 +39,8 @@ sum = reduce((lambda X, Y: (X + Y)), res)
 print(sum)
 #x =10
 #print(type(my_list(1)))
+
+input = 5
+list1 = [1,1,2,3,5]
+fib = list(map(lambda X: (X * X * X), list1))
+print(fib)

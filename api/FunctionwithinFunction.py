@@ -28,3 +28,13 @@ def plus(*args):
 
 # Calculate the sum  
 print(plus(20,30,40,50))
+
+#fibbonacchi Number
+
+input = 5
+
+list = [1,1,2,3,5]
+
+fib = map((lambda X: X * X * X), list)
+
+print(fib)
