@@ -24,4 +24,18 @@ print(X(2,4))
 X = lambda M: M if M > 10 else "XX"
 print(X(9))
 
+#introduction to Filter
+my_list = [12,23,4]
+result = list(filter(lambda x: (x % 2 == 0), my_list))           
+print(result)
 
+my_list = [12,'XX',24]
+result = list(filter(lambda X:(isinstance(X, int)), my_list))
+print(result)
+
+li = [1,2,3,4,5]
+res = list(map(lambda x: (x + 5), li))
+sum = reduce((lambda X, Y: (X + Y)), res) 
+print(sum)
+#x =10
+#print(type(my_list(1)))
